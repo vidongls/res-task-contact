@@ -1,0 +1,27 @@
+.ant-menu-title-content {
+  font-size: 15px;
+}
+.header-right {
+  float: right;
+  svg {
+    color: #333;
+  }
+  span {
+    padding: 0 10px;
+  }
+}
+.ant-dropdown {
+  top: 55px !important;
+}
+.ant-dropdown-menu::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: -2px -2px 5px #0000000f;
+  border-color: #fff transparent transparent #fff;
+  background-color: #fff;
+}

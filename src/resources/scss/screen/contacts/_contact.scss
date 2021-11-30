@@ -1,0 +1,139 @@
+.details {
+  &-first {
+    color: #000000a6;
+    margin: 30px;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 4px 0 #33333333;
+    border-radius: 4px;
+  }
+  .ant {
+    &-checkbox {
+      display: none;
+      &-wrapper {
+        margin-right: 15px;
+        &-checked {
+          background-color: #1890ff;
+          color: #fff;
+          text-shadow: 0 -1px 0 #0000001f;
+          box-shadow: 0 2px 0 #0000000b;
+          border-radius: 4px;
+        }
+      }
+    }
+    &-form-item-label > label {
+      //   margin-bottom: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  .checkbox-all {
+    box-shadow: 0 2px 0 #00000004;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    &:hover {
+      border-color: #1890ff;
+    }
+  }
+  .ant-picker-input > input {
+    text-align: center;
+  }
+  .ant-input-number {
+    width: 50%;
+    &-group-addon {
+      background-color: #fff;
+    }
+  }
+
+  &-filter-gruop-btn {
+    button {
+      margin-right: 15px;
+      border-radius: 4px;
+    }
+  }
+  &-info-header-title {
+    background-color: #fff;
+    padding: 10px 30px;
+    h4 {
+      font-weight: 400;
+      font-size: 20;
+    }
+  }
+  &-info-header-detail-item {
+    color: #000000d9;
+    font-size: 14px;
+    margin-bottom: 20px;
+    span {
+      color: #000000a6;
+      margin-left: 56px;
+    }
+  }
+  &-info-header-tab {
+    // padding: 0 10px;
+  }
+  &-info-content {
+    margin: 0 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    .rdw-editor-main {
+      min-height: 300px;
+      padding: 0 15px;
+    }
+    &.strategy-box {
+      padding: 10px 30px;
+      .ant-btn {
+        margin-right: 5px;
+      }
+    }
+  }
+  &-info-keyfield-row {
+    margin-bottom: 10px;
+    color: #000000d9;
+    font-size: 14px;
+    display: flex;
+    span {
+      color: grey;
+    }
+    .label-name {
+      color: #001529;
+      font-weight: 400;
+      width: 150px;
+    }
+    &-blue {
+      color: #1890ff !important;
+    }
+  }
+  &-contact {
+    .ant-tabs-nav-wrap {
+      width: 100%;
+      background-color: #fff;
+      padding: 0px 30px;
+    }
+    .ant-tabs-tab {
+      color: #000000a6;
+      margin: 0 32px 0 0;
+      padding: 12px 16px;
+    }
+  }
+  &-sumary-activity {
+    margin-bottom: 30px;
+    &-timeline {
+      width: 50%;
+      .ant-timeline-item-content .ant-col-19 {
+        padding: 0 !important;
+      }
+    }
+    &-time {
+    }
+  }
+}
+
+.pointer {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-right: 2px;
+  background: rgb(82, 196, 26);
+}
